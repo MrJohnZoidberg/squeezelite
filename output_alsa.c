@@ -775,7 +775,6 @@ static void *output_thread(void *arg) {
 						LOG_INFO("pcm wait error: %s", snd_strerror(err));
 					}
 					start = true;
-					usleep(10000);
 				}
 			}
 			continue;
